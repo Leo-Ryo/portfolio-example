@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cream: #f5f0e8;
+  --dark: #1a1814;
+  --accent: #c8a96e;
+  --accent-light: #e8d5b0;
+  --muted: #6b6560;
+  --panel-width: 260px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--dark);
+}
