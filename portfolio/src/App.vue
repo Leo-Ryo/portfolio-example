@@ -21,7 +21,7 @@
 <script setup>
   // 'import Home from' grabs the Home component code. 
   // './' means "look in the current directory" (the src folder where App.vue is), then go into the components folder to find Home.vue.
-  import Home from './components/Home.vue'
+  import Home from './components/Homepage.vue'
   
   // This imports the Projects component from the components folder.
   import Projects from './components/ProjectsSection.vue'
