@@ -1,7 +1,7 @@
 /**
- * LESSON: WHAT IS DOT NOTATION?
- * * Think of Dot Notation as a "pathfinder." 
- * It is the syntax we use to access a property or a 'nested' object 
+ * WHAT IS DOT NOTATION?
+ * * Think of Dot Notation as a "pathfinder."
+ * It is the syntax we use to access a property or a 'nested' object
  * inside a larger data structure.
  * * Logic: Parent.Child.Grandchild
  * Example: Hotel.Floor.RoomNumber
@@ -104,8 +104,8 @@ const globalRegistry = {
                   locations: [
                     {
                       address: "10 Downing St",
-                      hotel: { 
-                        name: "The Prime Stay", 
+                      hotel: {
+                        name: "The Prime Stay",
                         rating: 5.0,
                         floors: [
                           { level: 1, rooms: [{ id: 1, type: "Royal Suite", price: 5000 }] }

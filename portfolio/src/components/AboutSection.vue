@@ -2,24 +2,21 @@
 <template>
   <!-- <section> and <div> are standard HTML tags used to group layout sections together. -->
   <section class="section">
-
     <h2>About Me</h2>
-
     <p class="bio">
       Hi! I'm Jane, a frontend developer who loves building
       clean, simple, and useful websites. I'm currently learning
       Vue.js and enjoying every step of the journey.
     </p>
-
     <div class="skills">
 
-      <!-- 
-        v-for="skill in skills": Like a regular for-loop, this tells Vue to repeat this <span> 
+      <!--
+        v-for="skill in skills": Like a regular for-loop, this tells Vue to repeat this <span>
         for every item inside the 'skills' array defined in our <script> below.
         We temporarily refer to the current item as 'skill'.
-        
+
         :key="skill": Vue needs a unique identifier for every item in a loop.
-        Since each skill in our array is a unique string (like 'html', 'JavaScript'), 
+        Since each skill in our array is a unique string (like 'html', 'JavaScript'),
         we can just use the string itself as the key!
       -->
       <span
@@ -30,11 +27,8 @@
         <!-- The curly braces {{ }} inject the value of the current 'skill' variable straight into HTML -->
         {{skill}}
       </span>
-
     </div>
-
   </section>
-
 </template>
 
 
@@ -42,9 +36,9 @@
 <!-- <script setup> is where we write all our JavaScript logic. -->
 <script setup>
 
-// We use 'const' here because 'skills' is strictly our array of data, and we don't want to accidentally 
-// overwrite it with a completely different data type later. 
-// Note that we use square brackets [] to create an Array (a list of items). 
+// We use 'const' here because 'skills' is strictly our array of data, and we don't want to accidentally
+// overwrite it with a completely different data type later.
+// Note that we use square brackets [] to create an Array (a list of items).
 // Inside the array, we have a list of simple Strings holding our skills.
 const skills = ['html', 'JavaScript', 'SQL', 'Git', 'Vue 3']
 
