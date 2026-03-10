@@ -20,6 +20,7 @@
       <!-- Series 3, 4, 5: Form -->
       <ContactForm />
 
+      <PortfolioManager/>
     </main>
   </div>
 </template>
@@ -33,6 +34,7 @@ import HeroSection     from './components/HeroSection.vue'
 import AboutSection    from './components/AboutSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import ContactForm     from './components/ContactForm.vue'
+import PortfolioManager from '../../portfolio/src/components/PortfolioManager.vue'
 
 // Series 2: Track which section is currently active for nav highlight
 const activeSection = ref('hero')

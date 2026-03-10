@@ -1,4 +1,4 @@
-.env
+# .env // Removed it so we don't have to constantly add it
 # Logs
 logs
 *.log
